@@ -1,0 +1,25 @@
+<div class="t-hackcss-navigation">
+  <img src="images/profile.jpg" width=190 height=190 />
+  <h2 class="t-hackcss-navigation-heading">Menu</h2>
+
+  <nav class="menu" role="menubar">
+    {% assign url = page.url|remove:'index.html' %}
+    {% for link in site.navigation %}
+      <a class="menu-item {% if url == link.url %}active{% endif %}"
+        role="menuitem" href="{{ link.url | prepend: site.baseurl }}" title="{{ link.title }}">
+        {{ link.text }} <div class="pull-right">»</div>
+      </a>
+    {% endfor %}
+  </nav>
+
+  <ul>
+    {% for social in site.social %}
+      {% assign template = social.service|prepend:"icon-"|append:".html" %}
+        <li><span class="t-hackcss-social">
+          <i class="t-hackcss-icon">{% include {{ template }} %}</i>
+          <a href="{{ social.link }}">{{ social.username }}</a>
+        </span></li>
+    {% endfor %}
+  </ul>
+
+</div>
