@@ -1,5 +1,5 @@
 <head>
-  <meta charset="utf-8">
+  <meta charset="iso-8859-1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,18 +14,17 @@
         href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
   <!-- hack.css -->
-  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/hack.css" />
+  <link rel="stylesheet" href="{{ "/css/hack.css" | prepend: site.baseurl }}"/>
   {% if site.theme_mode == 'standard' %}
-  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/standard.css" />
-  {% elsif site.theme_mode == 'dark' %}
-  <link rel="stylesheet" href="https://npmcdn.com/hack/dist/dark.css" />
+  <link rel="stylesheet" href="{{ "/css/standard.css" | prepend: site.baseurl }}" />
   {% endif %}
 
   <!-- Prism.js -->
-  <link rel="stylesheet" href="https://npmcdn.com/prismjs@1.5.1/themes/prism.css" />
+  <link rel="stylesheet" href="{{ "/css/prism.css" | prepend: site.baseurl }}"/>
 
   <!-- Custom style -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}" />
 
   <!-- Feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"

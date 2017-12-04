@@ -21,7 +21,7 @@ permalink: blog
       {% if nth == 0 %}
       <div class="t-hackcss-media-shift media-left">
         <img class="t-hackcss-media-image"
-             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             src="{{ post.image_preview | prepend: site.baseurl }}" alt="{{ post.title }}"
              title="{{ post.title }}" />
       </div>
       {% endif %}
@@ -48,7 +48,7 @@ permalink: blog
       {% if nth == 1 %}
       <div class="t-hackcss-media-shift media-right">
         <img class="t-hackcss-media-image"
-             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             src="{{ post.image_preview | prepend: site.baseurl }}" alt="{{ post.title }}"
              title="{{ post.title }}" />
       </div>
       {% endif %}
@@ -58,28 +58,28 @@ permalink: blog
 
 <section>
 
-  <h2>Cards</h2>
+  <h2>Photo Albums</h2>
 
   <div class="grid t-hackcss-cards">
 
-    {% for project in site.projects %}
+    {% for album in site.albums %}
 
     <div class="cell -6of12 t-hackcss-cards-cell">
       <div class="card">
-        <header class="card-header">{{ project.name }}</header>
+        <header class="card-header">{{ album.name }}</header>
         <div class="card-content">
           <div class="inner">
 
-            {% if project.image %}
-            <img src="{{ project.image }}" class="t-hackcss-cards-image"
-                 alt="{{ project.name }}"
-                 title="{{ project.name }}" />
+            {% if album.image %}
+            <img src="{{ album.image | prepend: site.baseurl }}" class="t-hackcss-cards-image"
+                 alt="{{ album.name }}"
+                 title="{{ album.name }}" />
             {% endif %}
 
-            <p class="t-hackcss-cards-text">{{ project.description }}</p>
+            <p class="t-hackcss-cards-text">{{ album.description }}</p>
             <p class="t-hackcss-cards-link">
-              <a href="{{ project.link }}" title="{{ project.name }}" target="_blank">
-                 {{ project.name }}
+              <a href="{{ album.link }}" title="{{ album.name }}" target="_blank">
+                 Go to album
                </a>
             </p>
           </div>

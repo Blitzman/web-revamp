@@ -5,4 +5,6 @@ permalink: cv
 
 # CV / Resume
 
-Coming soon...
+My full CV can be downloaded [here](files/cv.pdf). You can also obtain a one-page resume [here](files/resume.pdf).
+
+
