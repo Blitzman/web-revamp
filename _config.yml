@@ -39,9 +39,11 @@ navigation:
   - text: Publications
     url: /publications
   - text: CV/Resume
-    url: /cv
+    url: /files/cv.pdf
   - text: Personal Blog
     url: /blog
+  - text: Photos
+    url: /photos
 
 projects:
   - name: Interactive 3D Object Recognition Pipeline on Mobile GPGPU Computing Platforms using Low-cost RGB-D Sensors
@@ -50,9 +52,18 @@ projects:
     image: /images/projects/3d_object_recognition_jetson_tk1/grouping.png
 
 albums:
+  - name: She
+    description: Friend make sense of me, friend make sense of me...
+    image: /images/albums/she.jpg
   - name: Seattle
-    description: Photos taken during Fall of 2017 in Washington.
-    image: /images/albums/seattle/seattle1.jpg
+    description: To some extent, Seattle remains a frontier metropolis, a place where people can experiment with their lives, change, grow, and make things happen...
+    image: /images/albums/seattle.jpg
+  - name: Ludovico
+    description: Taken right before Ludovico Einaudi's concert at the Moore Theatre in downtown Seattle.
+    image: /images/albums/ludovico.jpg
+  - name: Firefighters
+    description: Thanks for giving the sun back...
+    image: /images/albums/firefighters.jpg
 
 social:
   - service: mail

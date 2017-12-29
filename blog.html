@@ -9,10 +9,6 @@ permalink: blog
   <p>
     Personal thoughts, hobbies, and even more researchy stuff!
   </p>
-</section>
-
-<section>
-  <h2>Posts</h2>
 
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
@@ -54,40 +50,4 @@ permalink: blog
       {% endif %}
     </div>
   {% endfor %}
-</section>
-
-<section>
-
-  <h2>Photo Albums</h2>
-
-  <div class="grid t-hackcss-cards">
-
-    {% for album in site.albums %}
-
-    <div class="cell -6of12 t-hackcss-cards-cell">
-      <div class="card">
-        <header class="card-header">{{ album.name }}</header>
-        <div class="card-content">
-          <div class="inner">
-
-            {% if album.image %}
-            <img src="{{ album.image | prepend: site.baseurl }}" class="t-hackcss-cards-image"
-                 alt="{{ album.name }}"
-                 title="{{ album.name }}" />
-            {% endif %}
-
-            <p class="t-hackcss-cards-text">{{ album.description }}</p>
-            <p class="t-hackcss-cards-link">
-              <a href="{{ album.link }}" title="{{ album.name }}" target="_blank">
-                 Go to album
-               </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {% endfor %}
-
-  </div>
 </section>
