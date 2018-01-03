@@ -36,6 +36,8 @@ navigation:
     url: /experience
   - text: Research
     url: /research
+  - text: Projects
+    url: /projects
   - text: Publications
     url: /publications
   - text: CV/Resume
@@ -45,11 +47,21 @@ navigation:
   - text: Photos
     url: /photos
 
-projects:
+research:
   - name: Interactive 3D Object Recognition Pipeline on Mobile GPGPU Computing Platforms using Low-cost RGB-D Sensors
     description: In this work, we propose the implementation of a 3D object recognition system which will be optimized to operate under demanding time constraints. The system must be robust so that objects can be recognized properly in poor light conditions and cluttered scenes with significant levels of occlusion.
-    link: /projects/3d_object_recognition_jetson_tk1
-    image: /images/projects/3d_object_recognition_jetson_tk1/grouping.png
+    link: /research/3d_object_recognition_jetson_tk1
+    image: /images/research/3d_object_recognition_jetson_tk1/grouping.png
+
+projects:
+  - name: Self-Driving Car Nanodegree | Project 2 - Traffic Sign Classifier
+    description: In this project, we used deep neural networks (convolutional neural networks) to classify traffic signs. Specifically, we trained a model to classify traffic signs from the German Traffic Sign Dataset. 
+    link: /projects/carnd-term1-p2-trafficsignclassifier/carnd-term1-p2-trafficsignclassifier
+    image: /images/projects/carnd-term1-p2-trafficsignclassifier.png
+  - name: Self-Driving Car Nanodegree | Project 1 - Finding Lane Lines
+    description: In this project, we intended to identify lane lines on the road, first in an image, and later in a video stream. Our first goal was to write code including a series of steps (pipeline) that identify and draw the lane lines on a few test images. Once we could successfully identify the lines in an image, we ran the code on a video stream. The next goal was to then refine our pipeline with parameter tuning and by averaging and extrapolating the lines. At last, we tackled a challenge video.
+    link: /projects/carnd-term1-p1-lanelines/carnd-term1-p1-lanelines
+    image: /images/projects/carnd-p1-lanelines.png
 
 albums:
   - name: She

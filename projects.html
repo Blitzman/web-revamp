@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: projects
+---
+
+<section>
+  <h1>Projects</h1>
+</section>
+
+<div class="grid t-hackcss-cards">
+
+  {% for project in site.projects %}
+
+  <div class="cell -6of12 t-hackcss-cards-cell">
+      <div class="card">
+        <header class="card-header">{{ project.name }}</header>
+        <div class="card-content">
+          <div class="inner">
+
+            {% if project.image %}
+            <img src="{{ project.image | prepend: site.baseurl}}" class="t-hackcss-cards-image"
+                 alt="{{ project.name }}"
+                 title="{{ project.name }}" />
+            {% endif %}
+
+            <p class="t-hackcss-cards-text">{{ project.description }}</p>
+            <p class="t-hackcss-cards-link">
+              <a href="{{ project.link | prepend: site.baseurl }}" title="{{ project.name }}" target="_blank">
+                 Project Page
+               </a>
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+</section>
