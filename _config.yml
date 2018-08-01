@@ -23,6 +23,8 @@ sass:
 # Theme settings
 theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
 
+encoding: ISO-8859-1
+
 # Customizations
 your_name: Alberto Garcia-Garcia
 email: agarcia@dtic.ua.es
@@ -34,16 +36,10 @@ navigation:
     url: /education
   - text: Experience
     url: /experience
-  - text: Research
-    url: /research
-  - text: Projects
-    url: /projects
   - text: Publications
     url: /publications
   - text: CV/Resume
     url: /files/cv.pdf
-  - text: Personal Blog
-    url: /blog
   - text: Photos
     url: /photos
 

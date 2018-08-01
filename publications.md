@@ -7,11 +7,11 @@ permalink: publications
 
 ## Journals
 
-- [[j15]](https://www.igi-global.com/article/classifying-behaviours-in-videos-with-recurrent-neural-networks/195006) Classifying Behaviours in Videos with Recurrent Neural Networks. Javier Abellan-Abenza, Alberto Garcia-Garcia, Sergiu Oprea, David Ivorra-Piqueres, Jose Garcia-Rodriguez. International Journal of Computer Vision and Image Processing (2017).
+- [[j15]](https://www.sciencedirect.com/science/article/pii/S1568494618302813) __A Survey On Deep Learning Techniques for Image and Video Semantic Segmentation__. Alberto Garcia-Garcia, Sergio Orts-Escolano, Sergiu Oprea, Victor Villena-Martinez, Jose Garcia-Rodriguez. Applied Soft Computing (2018). [Pre-print version available at arXiv](https://arxiv.org/abs/1704.06857).
 
 - [[j14]](http://www.sciencedirect.com/science/article/pii/S0167865517301903) A Robotic Platform for Customized and Interactive Rehabilitation of Persons with Disabilities. Francisco Gomez-Donoso, Sergio Orts-Escolano, Alberto Garcia-Garcia, Jose Garcia-Rodriguez, John Alejandro Castro-Vargas, Sergiu Ovidiu-Oprea, Miguel Cazorla. Pattern Recognition Letters (2017).
 
-- [[j13]](https://arxiv.org/abs/1704.06857) __A Review On Deep Learning Techniques Applied to Semantic Segmentation__. Alberto Garcia-Garcia, Sergio Orts-Escolano, Sergiu Oprea, Victor Villena-Martinez, Jose Garcia-Rodriguez. Applied Soft Computing (2017). (Under review). [Pre-print version available at arXiv](https://arxiv.org/abs/1704.06857).
+- [[j13]](https://www.igi-global.com/article/classifying-behaviours-in-videos-with-recurrent-neural-networks/195006) Classifying Behaviours in Videos with Recurrent Neural Networks. Javier Abellan-Abenza, Alberto Garcia-Garcia, Sergiu Oprea, David Ivorra-Piqueres, Jose Garcia-Rodriguez. International Journal of Computer Vision and Image Processing (2017).
 
 - [[j12]](http://www.sciencedirect.com/science/article/pii/S1077314217301182) A Study of the Effect of Noise and Occlusion on the Accuracy of Convolutional Neural Networks applied to 3D Object Recognition. Alberto Garcia-Garcia, Jose Garcia-Rodriguez, Francisco Gomez-Donoso, Miguel Cazorla. Computer Vision and Image Understanding (2016).
 
@@ -38,6 +38,8 @@ permalink: publications
 - [[j1]](http://link.springer.com/article/10.1007%2Fs11063-015-9421-x) 3D Surface Reconstruction of noisy Point Clouds using Growing Neural Gas: Object/Scene Reconstruction. Sergio Orts-Escolano, Jose Garcia-Rodriguez, Vicente MorellGimenez, Miguel Cazorla, Jose Antonio Serra-Perez, Alberto Garcia-Garcia. Neural Processing Letters (2015).
 
 ## Conferences
+
+- [[c10]](#) __The RobotriX: An eXtremely Photorealistic and Very-Large-Scale Indoor Dataset of Sequences with Robot Trajectories and Interactions__. Albert Garcia-Garcia,Sergiu Oprea, Pablo Martinez-Gonzalez, Sergio Orts-Escolano, Jose Garcia-Rodriguez. International Conference on Intelligent Robots (IROS 2018).
 
 - [[c9]](https://link.springer.com/chapter/10.1007/978-3-319-70833-1_50) Detecting and Manipulating Objects with a Social Robot: An Ambient Assisted Living Approach. John Alejandro Castro-Vargas, Alberto Garcia-Garcia, Sergiu Oprea, Sergio Orts-Escolano, Jose Garcia-Rodriguez. Iberian Robotics Conference (ROBOT 2017).
 
